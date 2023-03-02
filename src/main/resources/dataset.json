@@ -1,0 +1,17 @@
+[
+    {
+        "language" : "Java",
+        "repositories" : [
+            "https://github.com/apache/skywalking",
+            "https://github.com/apache/systemds",
+            "https://github.com/traccar/traccar",
+            "https://github.com/openzipkin/zipkin",
+            "https://github.com/apache/pulsar",
+            "https://github.com/openkm/document-management-system",
+            "https://github.com/dorkbox/SystemTray",
+            "https://github.com/pinpoint-apm/pinpoint",
+            "https://github.com/apache/avro",
+            "https://github.com/oshi/oshi"
+        ]
+    }
+]
