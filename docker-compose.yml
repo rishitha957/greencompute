@@ -1,0 +1,10 @@
+version: "0.1"
+services:
+  code-parser:
+    image: python:3.7-alpine
+    volumes:
+      - type: bind
+        source: .
+        target: /code
+volumes:
+  greencompute:

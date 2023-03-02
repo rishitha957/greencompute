@@ -13,5 +13,20 @@
             "https://github.com/apache/avro",
             "https://github.com/oshi/oshi"
         ]
+    },
+    {
+        "language" : "Python",
+        "repositories" : [
+            "https://github.com/microsoft/recommenders",
+            "https://github.com/mesonbuild/meson",
+            "https://github.com/luispedro/BuildingMachineLearningSystemsWithPython",
+            "https://github.com/microsoft/AI-System",
+            "https://github.com/stamparm/maltrail",
+            "https://github.com/DeepGraphLearning/RecommenderSystems",
+            "https://github.com/gdraheim/docker-systemctl-replacement",
+            "https://github.com/conda/conda",
+            "https://github.com/awesto/django-shop",
+            "https://github.com/hslatman/awesome-industrial-control-system-security"
+        ]
     }
 ]
