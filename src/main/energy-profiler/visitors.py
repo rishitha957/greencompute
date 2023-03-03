@@ -1,4 +1,4 @@
-import ast, astunparse
+import ast
 
 class StatementVisitor(ast.NodeVisitor):
     """Visits all the other nodes that are not constant nodes in AST"""
@@ -8,7 +8,7 @@ class StatementVisitor(ast.NodeVisitor):
     def generic_visit(self,node):
         if not isinstance(node, ast.Constant):
             try:
-                self.statement_map[type(node)] = ast.unparse(node)
+                self.statement_map[type(node)] = ast
             except TypeError:
                 print("Can't parse ",type(node))
         ast.NodeVisitor.generic_visit(self,node)

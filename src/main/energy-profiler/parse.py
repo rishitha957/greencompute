@@ -1,5 +1,4 @@
 import ast
-import astunparse
 import os
 from pathlib import Path
 from visitors import *
@@ -22,7 +21,7 @@ def parse_repo(repo_url):
     clone_repo(repo_url)
     repo_dir = "./tmp/"+repo_url.split("/")[-1]
     pyfile_list = get_subdir_filepath(repo_dir)
-    for file in pyfile_list[:1]:
+    for file in pyfile_list:
         parse_pyfile(file.__str__())
     return
 
