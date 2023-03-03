@@ -1,7 +1,10 @@
-version: "0.1"
+version: "3"
 services:
   code-parser:
-    image: python:3.7-alpine
+    image: ubuntu
+    command: >
+        bash -c "apt-get install git
+        && python code/src/main/code-parser/main.py"
     volumes:
       - type: bind
         source: .
