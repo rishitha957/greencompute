@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -e
 echo "How do you want to install RAPL Formula ?";
 echo "1) pip 2) docker 3) deb";
