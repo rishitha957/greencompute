@@ -3,6 +3,7 @@ Implements tracking Intel CPU Power Consumption on Mac and Windows
 using Intel Power Gadget
 https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html
 """
+
 import os
 import shutil
 import subprocess
