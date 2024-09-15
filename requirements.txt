@@ -2,3 +2,4 @@ pandas
 py-cpuinfo
 fuzzywuzzy
 astunparse
+scalene
