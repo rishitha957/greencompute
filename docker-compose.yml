@@ -1,0 +1,13 @@
+version: "3"
+services:
+  code-parser:
+    image: ubuntu
+    command: >
+        bash -c "apt-get install git
+        && python code/src/main/code-parser/main.py"
+    volumes:
+      - type: bind
+        source: .
+        target: /code
+volumes:
+  greencompute:
